@@ -31,7 +31,7 @@ namespace MarsAdvancedProject.Tests
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                SearchSkills SearchSkillsObj = new SearchSkills();
+                SearchSkills_page SearchSkillsObj = new SearchSkills_page();
                 SearchSkillsObj.SearchBySkill_steps();
 
                 
@@ -61,14 +61,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Search by categary");
+                test.Log(LogStatus.Info, "Search by categary");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                SearchSkills SearchSkillsObj = new SearchSkills();
+                SearchSkills_page SearchSkillsObj = new SearchSkills_page();
                 SearchSkillsObj.ClickOnCategory();
 
                 //Assertion 1:  If search URL matches, test passed; else, failed.
@@ -100,14 +100,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Search by user");
+                test.Log(LogStatus.Info, "Search by user");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps  
-                SearchSkills SearchSkillsObj = new SearchSkills();
+                SearchSkills_page SearchSkillsObj = new SearchSkills_page();
                 SearchSkillsObj.SearchUser_steps();
 
                 Thread.Sleep(2000);
@@ -135,14 +135,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Online filter");
+                test.Log(LogStatus.Info, "Online filter");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps  
-                SearchSkills SearchSkillsObj = new SearchSkills();
+                SearchSkills_page SearchSkillsObj = new SearchSkills_page();
                 SearchSkillsObj.OnlineFilter_steps();
 
                 // Assertion: compare the Location Type on the first search result with the excel test data
@@ -164,14 +164,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Onsite filter");
+                test.Log(LogStatus.Info, "Onsite filter");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps  
-                SearchSkills SearchSkillsObj = new SearchSkills();
+                SearchSkills_page SearchSkillsObj = new SearchSkills_page();
                 SearchSkillsObj.OnSiteFilter_steps();
 
                 // Assertion: compare the Location Type on the first search result with the excel test data
@@ -194,14 +194,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Show all filter");
+                test.Log(LogStatus.Info, "Show all filter");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps  
-                SearchSkills SearchSkillsObj = new SearchSkills();
+                SearchSkills_page SearchSkillsObj = new SearchSkills_page();
                 SearchSkillsObj.ShowAllFilter_steps();
             }
             #endregion

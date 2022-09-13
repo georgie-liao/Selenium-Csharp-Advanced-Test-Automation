@@ -69,7 +69,7 @@ namespace MarsAdvancedProject.Pages
         public void StartChat_Steps()
         {
             // Enter Share Skill steps  
-            SearchSkills SearchSkillsObj = new SearchSkills();
+            SearchSkills_page SearchSkillsObj = new SearchSkills_page();
             SearchSkillsObj.SearchUser_steps();
 
             GlobalDefinitions.ExcelLib.PopulateInCollection(Base.ExcelPath, "Chat");

@@ -25,17 +25,15 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("See all notification");
+                test.Log(LogStatus.Info, "See all notification");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                Notification NotificationObj = new Notification();
+                Notification_page NotificationObj = new Notification_page();
                 NotificationObj.SeeAllNotification_steps();
-
-
             }
             #endregion
 
@@ -45,17 +43,15 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("See less notificationl");
+                test.Log(LogStatus.Info, "See less notification");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                Notification NotificationObj = new Notification();
+                Notification_page NotificationObj = new Notification_page();
                 NotificationObj.ShowLessNotification_Steps();
-
-
             }
             #endregion
 
@@ -65,14 +61,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Delete nofification");
+                test.Log(LogStatus.Info, "Delete nofification");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                Notification NotificationObj = new Notification();
+                Notification_page NotificationObj = new Notification_page();
                 NotificationObj.DeleteOneNotification_Steps();
 
                 // Assert the alart message to confirm the new education has been added
@@ -87,14 +83,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Mark notification as read");
+                test.Log(LogStatus.Info, "Mark notification as read");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                Notification NotificationObj = new Notification();
+                Notification_page NotificationObj = new Notification_page();
                 NotificationObj.MarkAsRead_Steps();
 
                 // Assert the alart message to confirm the new education has been added
@@ -109,14 +105,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Select notification");
+                test.Log(LogStatus.Info, "Select notification");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                Notification NotificationObj = new Notification();
+                Notification_page NotificationObj = new Notification_page();
                 NotificationObj.SelectAllNotification_Steps();
 
 
@@ -136,14 +132,14 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Unselect notification");
+                test.Log(LogStatus.Info, "Unselect notification");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
 
                 // Enter Share Skill steps    
-                Notification NotificationObj = new Notification();
+                Notification_page NotificationObj = new Notification_page();
                 NotificationObj.UnselectAllNotification_Steps();
 
 

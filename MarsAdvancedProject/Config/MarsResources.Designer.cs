@@ -106,7 +106,7 @@ namespace MarsAdvancedProject.Config {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to E:\MVP Studio\PROJECTS\MarsQA Advanced Projects\MarsAdvancedProject\ExcelData\Extent-Config.xml.
+        ///   Looks up a localized string similar to E:\MVP Studio\PROJECTS\MarsQA Advanced Projects\MarsAdvancedProject\Config\Extent-Config.xml.
         /// </summary>
         internal static string XMLFilePath {
             get {

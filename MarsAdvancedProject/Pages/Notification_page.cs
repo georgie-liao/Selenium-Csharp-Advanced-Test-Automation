@@ -11,9 +11,9 @@ using System.Threading.Tasks;
 
 namespace MarsAdvancedProject.Pages
 {
-    public class Notification
+    public class Notification_page
     {
-        public Notification()
+        public Notification_page()
         {
             PageFactory.InitElements(Global.GlobalDefinitions.driver, this);
         }
@@ -106,10 +106,7 @@ namespace MarsAdvancedProject.Pages
 
                     Thread.Sleep(2000);
                 }
-                
-
             }
-
 
             Thread.Sleep(2000);
             
@@ -118,7 +115,6 @@ namespace MarsAdvancedProject.Pages
             Console.WriteLine("Total count is " + ntn);
 
             string notificationNo = GlobalDefinitions.driver.FindElement(By.XPath("//div[@class='floating ui blue label']")).Text;
-            
 
             Assert.That(Convert.ToInt16(notificationNo) == ntn, "Total notification numbers are not the same. Test failed");
         }
