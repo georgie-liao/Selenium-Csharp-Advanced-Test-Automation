@@ -104,8 +104,8 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Verify sent request");
-                test.Log(LogStatus.Info, "Verify sent request");
+                test = extent.StartTest("Verify received request");
+                test.Log(LogStatus.Info, "Verify received request");
 
                 // Take Screenshots
                 SaveScreenShotClass.SaveScreenshot(driver, "VerifySentRequest");
@@ -148,7 +148,7 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
+                test = extent.StartTest("Withdraw request");
                 test.Log(LogStatus.Info, "Withdrew request");
 
                 // Take Screenshots
@@ -183,8 +183,8 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Withdrew request");
+                test = extent.StartTest("Accept request");
+                test.Log(LogStatus.Info, "Accept request");
 
                 // Take Screenshots
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
@@ -214,8 +214,8 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Withdrew request");
+                test = extent.StartTest("Complete sent request");
+                test.Log(LogStatus.Info, "Complete sent request");
 
                 // Take Screenshots
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
@@ -251,8 +251,8 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Withdrew request");
+                test = extent.StartTest("Decline request");
+                test.Log(LogStatus.Info, "Decline request");
 
                 // Take Screenshots
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
@@ -283,8 +283,8 @@ namespace MarsAdvancedProject.Tests
             {
 
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Withdrew request");
+                test = extent.StartTest("Complete received request");
+                test.Log(LogStatus.Info, "Complete received request");
 
                 // Take Screenshots
                 SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");

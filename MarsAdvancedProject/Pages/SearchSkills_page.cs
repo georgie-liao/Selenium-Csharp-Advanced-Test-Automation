@@ -15,9 +15,9 @@ using System.Collections;
 
 namespace MarsAdvancedProject.Pages
 {
-    public class SearchSkills
+    public class SearchSkills_page
     {
-        public SearchSkills()
+        public SearchSkills_page()
         {
             PageFactory.InitElements(Global.GlobalDefinitions.driver, this);
         }

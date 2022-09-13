@@ -229,8 +229,8 @@
     <Compile Include="Global\WaitHelper.cs" />
     <Compile Include="Pages\Chat_page.cs" />
     <Compile Include="Pages\ManageReqests_page.cs" />
-    <Compile Include="Pages\Notification.cs" />
-    <Compile Include="Pages\SearchSkills.cs" />
+    <Compile Include="Pages\Notification_page.cs" />
+    <Compile Include="Pages\SearchSkills_page.cs" />
     <Compile Include="Pages\SignIn.cs" />
     <Compile Include="Pages\SignUp.cs" />
     <Compile Include="Config\MarsResources.Designer.cs">

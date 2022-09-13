@@ -23,11 +23,11 @@ namespace MarsAdvancedProject.Tests
             public void StartChat_Test()
             {
                 //Start the Reports
-                test = extent.StartTest("Search skill");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Chat");
+                test.Log(LogStatus.Info, "Chat created");
 
                 // Take Screenshots of entering Share Skills
-                SaveScreenShotClass.SaveScreenshot(driver, "SearchSkills");
+                SaveScreenShotClass.SaveScreenshot(driver, "Chat");
 
                 // Enter Share Skill steps    
                 Chat_page chatObj = new Chat_page();
@@ -50,8 +50,8 @@ namespace MarsAdvancedProject.Tests
             public void ChatHistory_Test()
             {
                 //Start the Reports
-                test = extent.StartTest("Search Chat History");
-                test.Log(LogStatus.Info, "Search skill created");
+                test = extent.StartTest("Chat History");
+                test.Log(LogStatus.Info, "Find chat history");
 
                 // Take Screenshots of entering Share Skills
                 SaveScreenShotClass.SaveScreenshot(driver, "Chat");
