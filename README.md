@@ -1,2 +1,2 @@
 # MarsQA-Advanced-Projects
-# Automation test framework using Selenium C# 
+# Test automation using Selenium C#, BDD Framework with SpecFlow
